@@ -6,12 +6,13 @@ function history(coin1, coin2) {
 
 
 
-alert("Needs to be run locally.");
+
 
 let checkedMarkets = {
         showAll: true,
         bittrex: true,
-        poloniex: true
+        poloniex: true,
+        kraken: true
 
     },
     checkedCoins = {
